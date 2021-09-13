@@ -66,6 +66,7 @@ function cronometro() {
         minutos = 0
         segundos = 0
         document.querySelector('.cronometro').innerHTML = '00:00:00'
+        document.querySelector('.iniciar').classList.remove('ativo')
     }
 
     function timer() {

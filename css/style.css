@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+}
+
+.background {
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contador {
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.btn button {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.iniciar {
+    color: rgb(1, 223, 1);
+    background: rgb(1, 59, 30);
+}
+
+.voltar {
+    color: rgb(122, 122, 122);
+    background: rgb(31, 31, 31);
+}
+
+button.ativo {
+    background: rgba(61, 1, 1, .5);
+    color: rgb(245, 0, 0);
+}
+
+.div1 {
+    border-bottom: 1px solid  rgb(153, 153, 153);
+    font-size: 1.2rem;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10px;
+}
